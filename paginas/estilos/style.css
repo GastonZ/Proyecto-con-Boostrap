@@ -140,3 +140,12 @@ button:hover {
 	color: gold;
 	background: white;
 }
+
+.login-container {
+	display: flex;
+	text-align: center;
+	padding-top: 5rem;
+	width: 400px;
+	margin: auto;
+	padding-bottom: 10rem;
+}
