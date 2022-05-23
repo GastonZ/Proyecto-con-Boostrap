@@ -25,6 +25,14 @@ body {
 	border-radius: 10px;
 }
 
+.indicaciones {
+	transition: transform;
+	transition-duration: 600ms;
+}
+.indicaciones:hover {
+	transform: scale(1.2);
+}
+
 .caja {
 	transition: transform;
 	transition-duration: 600ms;
