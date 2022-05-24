@@ -1,0 +1,78 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: gold;
+}
+
+.parrafo {
+  text-align: center;
+  padding: 3rem;
+  font-size: 20px;
+}
+
+.caja {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 150px 150 px 150 px;
+      grid-template-rows: 150px 150 px 150 px;
+  padding: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  background: white;
+  border-radius: 10px;
+  -webkit-transition: -webkit-transform;
+  transition: -webkit-transform;
+  transition: transform;
+  transition: transform, -webkit-transform;
+  -webkit-transition-duration: 600ms;
+          transition-duration: 600ms;
+}
+
+.caja:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.indicaciones {
+  -webkit-transition: -webkit-transform;
+  transition: -webkit-transform;
+  transition: transform;
+  transition: transform, -webkit-transform;
+  -webkit-transition-duration: 600ms;
+          transition-duration: 600ms;
+}
+
+.indicaciones:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.content-footer {
+  width: 100%;
+  text-align: center;
+}
+
+.content-footer img {
+  height: 1.5rem;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 900px) {
+  .caja {
+    -webkit-transition: -webkit-transform;
+    transition: -webkit-transform;
+    transition: transform;
+    transition: transform, -webkit-transform;
+    -webkit-transition-duration: 600ms;
+            transition-duration: 600ms;
+  }
+  .caja:hover {
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+  }
+}
+/*# sourceMappingURL=style.css.map */
