@@ -1,8 +1,11 @@
+$color-bg: gold;
+$color-cajas: white;
+
 * {
 	font-family: 'Montserrat', sans-serif;
 }
 body {
-	background: gold;
+	background: $color-bg;
 }
 .parrafo {
 	text-align: center;
@@ -17,7 +20,7 @@ body {
 	margin-bottom: 2rem;
 	margin-right: 2rem;
 	margin-left: 2rem;
-	background: white;
+	background: $color-cajas;
 	border-radius: 10px;
 	transition: transform;
 	transition-duration: 600ms;
